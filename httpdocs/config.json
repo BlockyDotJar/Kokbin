@@ -5,14 +5,11 @@
   "maxLength": 400000,
   "staticMaxAge": 86400,
   "recompressStaticAssets": true,
-  "keyGenerator": {
-    "type": "random"
-  },
   "rateLimits": {
     "categories": {
       "normal": {
-        "totalRequests": 500,
-        "every": 60000
+        "totalRequests": 10,
+        "every": 1000
       }
     }
   },
