@@ -1,0 +1,20 @@
+{
+  "host": "localhost",
+  "port": 7777,
+  "keyLength": 12,
+  "maxLength": 400000,
+  "staticMaxAge": 86400,
+  "recompressStaticAssets": true,
+  "keyGenerator": {
+    "type": "random"
+  },
+  "rateLimits": {
+    "categories": {
+      "normal": {
+        "totalRequests": 500,
+        "every": 60000
+      }
+    }
+  },
+  "documents": { }
+}

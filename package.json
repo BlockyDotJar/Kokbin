@@ -1,0 +1,30 @@
+{
+  "name": "kokbin",
+  "version": "1.0.0",
+  "dependencies": {
+    "busboy": "1.6.0",
+    "connect": "^3.7.0",
+    "connect-ratelimit": "0.0.7",
+    "connect-route": "0.1.5",
+    "st": "^3.0.0",
+    "uglify-js": "3.17.4",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.3.0"
+  },
+  "bin": {
+    "haste-server": "./httpdocs/server.js"
+  },
+  "files": [
+    "httpdocs/server.js",
+    "httpdocs/lib",
+    "httpdocs/static"
+  ],
+  "directories": {
+    "lib": ".httpdocs/lib"
+  },
+  "scripts": {
+    "start": "node httpdocs/server.js"
+  }
+}
